@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="LibraryManageSystem-logic" />
         <module name="LibraryManageSystem-entity" />
-        <module name="LibraryManageSystem-service" />
         <module name="LibraryManageSystem-web" />
-        <module name="LibraryManageSystem-dao" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LibraryManageSystem-service" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

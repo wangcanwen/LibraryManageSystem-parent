@@ -6,8 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>LibraryManageSystem-entity</module>
-        <module>LibraryManageSystem-dao</module>
-        <module>LibraryManageSystem-service</module>
+        <module>LibraryManageSystem-logic</module>
         <module>LibraryManageSystem-web</module>
     </modules>
 
