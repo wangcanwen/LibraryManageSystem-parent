@@ -6,7 +6,7 @@ import java.util.Date;
 
 @Data
 public class Book {
-    String isbn;
+    long id;
     int typeid;
     String bookname;
     String author;

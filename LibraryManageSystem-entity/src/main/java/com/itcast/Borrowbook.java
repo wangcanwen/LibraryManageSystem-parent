@@ -6,8 +6,8 @@ import java.util.Date;
 
 @Data
 public class Borrowbook {
-    String readerid;
-    String isbn;
+    long readerid;
+    long bid;
     Date borrowdate;
     Date returndate;
     Double fine;

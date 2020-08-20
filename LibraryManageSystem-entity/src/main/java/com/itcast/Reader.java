@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 public class Reader {
-    String readerid;
+    long readerid;
     int type;
     String name;
     int age;
